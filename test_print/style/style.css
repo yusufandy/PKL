@@ -1,0 +1,140 @@
+header,
+section,
+footer,
+aside {
+    display: block;
+}
+
+.container {
+    padding: 4em 1em;
+}
+
+#sidebar {
+    width: 200px;
+    position: fixed;
+    padding: 5px;
+}
+
+#side {
+    width: 200px;
+    position: fixed;
+    padding: 5px;
+}
+
+nav,
+footer {
+    clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
+    height: 30px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+section.utama {
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eeeeee;
+}
+
+
+
+aside {
+    width: 300px;
+    height: 311px;
+    float: right;
+    padding: 0px 0px 0px 20px;
+}
+
+#content {
+    float: left;
+    width: 700px;
+    height: 0px;
+    margin-left: 270px;
+    padding: 0px;
+    background: #ffffff;
+    text-align: center;
+    color: black;
+}
+
+#content2 {
+    float: right;
+    width: 700px;
+    height: 0px;
+    margin-left: 270px;
+    padding: 0px;
+    background: #ffffff;
+    text-align: left;
+    color: black;
+}
+
+
+#induk {
+    width: 700px;
+    background: #ffffff;
+    text-align: left;
+    color: black;
+}
+
+.element {
+    position: fixed;
+    top: 100px;
+    width: 200px;
+    border: 1px solid #000;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+}
+
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: #de6581;
+}
+
+aside h2 {
+    padding: 30px 0px 10px 0px;
+    color: #000000;
+    text-align: left;
+}
+
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+    border-top: 2px solid #000000;
+    text-align: left;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
